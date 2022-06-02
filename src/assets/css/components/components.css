@@ -1,0 +1,6 @@
+/* Either @import components, or wrap within `@layer components` */
+@layer components {
+  blockquote {
+    background-color: var(--pink-200);
+  }
+}

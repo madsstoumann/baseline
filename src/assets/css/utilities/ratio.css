@@ -1,0 +1,10 @@
+[data-ratio] { aspect-ratio: var(--asr, none); }
+[data-ratio] > :is(iframe, img, video) { aspect-ratio: inherit; object-fit: cover; }
+[data-ratio="square"] { --asr: var(--ratio-square); }
+[data-ratio="landscape"] { --asr: var(--ratio-landscape); }
+[data-ratio="portrait"] { --asr: var(--ratio-portrait); }
+[data-ratio="portrait-small"] { --asr: var(--ratio-portrait-small); }
+[data-ratio="widescreen"] { --asr: var(--ratio-widescreen); }
+[data-ratio="ultrawide"] { --asr: var(--ratio-ultrawide); }
+[data-ratio="universal"] { --asr: var(--ratio-universal); }
+[data-ratio="golden"] { --asr: var(--ratio-golden); }

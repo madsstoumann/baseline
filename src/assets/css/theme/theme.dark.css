@@ -1,0 +1,15 @@
+@media (--OSdark) {
+  :where(html) {
+    color-scheme: dark;
+    --accent-color: cornflowerblue;
+    --body-bg: #222;
+    --body-c: #FFF;
+    --caret-color: cornflowerblue;
+    --outline-color: cornflowerblue;
+    --scrollbar-background: #fff;
+    --scrollbar-color: rgba(0, 0, 0, 0.5);
+    --selection-background: navy;
+    --selection-color: white;
+    --text-color: #222;
+	}
+}

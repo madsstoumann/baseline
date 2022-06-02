@@ -1,0 +1,14 @@
+:where(html) {
+	--body-ff: var(--font-sans);
+	--body-fz: var(--size-fluid-2);
+	--body-fw: 400;
+	--body-gtr: min-content 1fr min-content;
+	--body-lh: 1.5;
+	--headline-font: var(--font-sans);
+	--outline-offset: 5px;
+	--outline-style: dashed;
+	--outline-width: thin;
+	--scroll-border-radius: 1.5rem;
+	--scroll-border-width: 0.2rem;
+	--scroll-width: 1rem;
+}

@@ -1,0 +1,10 @@
+@import 'src/assets/css/props/props.css' layer(props);
+@import 'src/assets/css/tags/tags.css' layer(tags);
+@import 'src/assets/css/theme/theme.css' layer(theme);
+@import 'src/assets/css/utilities/utilities.css' layer(utilities);
+@import 'src/assets/css/components/components.css' layer(components);
+
+/* 
+If using external components, import them to `components`or:
+@import url('framework.css') layer(components.framework);
+*/

@@ -1,0 +1,8 @@
+:where(html) {
+	--duration-extra-fast: 100ms;
+	--duration-fast: 200ms;
+	--duration-normal: 300ms;
+	--duration-slow: 400ms;
+	--duration-extra-slow: 500ms;
+	--duration-very-slow: 750ms;
+}

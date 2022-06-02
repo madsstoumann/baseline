@@ -1,0 +1,15 @@
+:where(html) {
+  color-scheme: light;
+  --accent-color: cornflowerblue;
+  --body-bg: #FFF;
+  --body-c: #222;
+  --border-color: silver;
+  --caret-color: cornflowerblue;
+  --headline-color: var(--text-color);
+  --outline-color: deeppink;
+  --scrollbar-background: #fff;
+  --scrollbar-color: rgba(0, 0, 0, 0.5);
+  --selection-background: navy;
+	--selection-color: white;
+  --text-color: #222;
+}
